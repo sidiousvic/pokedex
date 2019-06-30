@@ -14,8 +14,8 @@ class UI {
       <h2 class="">
       ${pokeData.species.name.charAt(0).toUpperCase() +
         pokeData.species.name.slice(1)}
-      </h2>
-      <h3>#${pokeData.id}</h3>
+        <span class="u-pull-right">#${pokeData.id}</span></h2>
+      
       
     </div>
       <div class="entry twelve columns" id="entry">
