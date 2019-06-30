@@ -8,7 +8,7 @@ const searchPoke = document.getElementById("searchPoke");
 searchPoke.addEventListener("keyup", e => {
   // document.addEventListener("DOMContentLoaded", e => {
   // get input text
-  const pokeText = e.target.value;
+  const pokeText = e.target.value.toLowerCase();
   // const pokeText = "gengar";
   // if input is empty, proceed
   if (pokeText !== "") {
