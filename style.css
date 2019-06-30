@@ -1,97 +1,62 @@
-body,
-html {
-  background-color: crimson;
-  /* display: flex;
-  min-height: 100vh;
-  flex-direction: column; */
-  /* background-image: url("./dribble.jpg"); */
-  background-size: 200px;
-  background-blend-mode: color-dodge;
-}
-
-.badge {
+body {
+  background: red;
   color: white;
-  background-color: crimson;
-  font-family: "Press Start 2P";
 }
 
-.badge-repo-name {
-  color: white;
-  background-color: crimson;
+.container {
+  background: red;
+  /* border: solid 1px cyan; */
 }
 
-.bg-primary {
-  background-color: crimson !important;
-  border-radius: 0.8rem;
-  border: 1px solid white;
+.row {
+  background: red;
+  /* border: solid 1px lime; */
 }
 
-.list-group-item {
-  font-family: "Press Start 2P";
-  font-size: 11px;
-  color: white;
-  position: relative;
-  display: block;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: -2px;
-  background-color: crimson;
-  border: 1px solid white;
-  border-radius: 0.8rem !important;
-  margin: 10px 0px;
-}
-
-h1,
-h3,
-p {
-  color: white;
-  font-family: "Press Start 2P";
-  font-weight: 100;
-}
-
-h1,
-h3 {
-}
-
-i {
-  color: white;
+.column,
+.columns {
+  margin: 1rem 0;
+  border: solid 1px white;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 img {
-  border-radius: 0.8rem;
   width: 100%;
   image-rendering: pixelated;
-  margin: auto;
-  border-radius: 5px;
-  /* border: 1px solid white; */
+  /* border: solid 1px white;
+  border-radius: 1rem; */
 }
 
-.btn-primary {
-  background-color: crimson;
-  background-image: none;
-  border-radius: 0.8rem;
-  border: 1px solid white;
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
-.card {
-  background-color: crimson;
-  border: 1px solid white;
-  box-shadow: white 10px 10px;
-  border-radius: 0.8rem;
+h1 {
+  font-size: 8vmin;
 }
 
-nav i {
-  color: fuchsia;
+h1,
+h2,
+h3 {
+  margin: 0 0 0 1rem;
 }
 
-.bg-dark {
-  background-color: crimson !important;
+input[type="text"] {
+  border-radius: 1rem;
+  padding: 4vmin 2vmin;
+  font-size: 4vmin;
+  line-height: 100px;
 }
 
-footer {
+button {
   color: white;
-  display: block;
-  /* height: 100vh; */
-  /* flex: 1; */
-  /* background-image: url("./dribble.jpg"); */
-  background-size: 200px;
+  border: 1px solid white;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.center-text {
+  text-align: center;
 }

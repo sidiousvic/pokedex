@@ -5,11 +5,11 @@ const ui = new UI();
 const searchPoke = document.getElementById("searchPoke");
 
 // search input event listener
-searchPoke.addEventListener("keyup", e => {
-  // document.addEventListener("DOMContentLoaded", e => {
+// searchPoke.addEventListener("keyup", e => {
+document.addEventListener("DOMContentLoaded", e => {
   // get input text
-  const pokeText = e.target.value.toLowerCase();
-  // const pokeText = "gengar";
+  // const pokeText = e.target.value.toLowerCase();
+  const pokeText = "gengar";
   // if input is empty, proceed
   if (pokeText !== "") {
     // make http call
