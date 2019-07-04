@@ -20,7 +20,7 @@ class UI {
     </div>
       <div class="entry twelve columns" id="entry">
         <!-- sprite -->
-        <div class="six columns">
+        <div class="six columns" id="sprite-container">
         <img class="" src="${pokeData.sprites.front_default}">
         </div>
         <!-- primary info -->
@@ -72,17 +72,6 @@ class UI {
       </div>
     </div>
 `;
-  }
-  // show user repos
-  showRepos(repos) {
-    let output = "";
-    repos.forEach(repo => {
-      output += `
-
-        `;
-    });
-    // output repos
-    document.getElementById("repos").innerHTML = output;
   }
 
   // show alert message
