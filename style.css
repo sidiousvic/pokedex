@@ -60,3 +60,7 @@ button {
 .center-text {
   text-align: center;
 }
+
+#sprite-container {
+  background: #111;
+}
